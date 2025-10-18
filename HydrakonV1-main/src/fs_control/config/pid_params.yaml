@@ -1,0 +1,27 @@
+/**:
+  ros__parameters:
+    # PID Controller Parameters
+    # Proportional gain
+    speed_kp: 1.2
+    # Integral gain
+    speed_ki: 0.3
+    # Derivative gain
+    speed_kd: 0.05
+    # Integral windup limit
+    speed_integral_limit: 3.0
+    
+    # Acceleration/Deceleration Limits
+    # Max acceleration m/s²
+    max_acceleration: 4.0
+    # Max deceleration m/s²
+    max_deceleration: -6.0
+    
+    # Speed and Timing
+    # Speed limit m/s
+    max_speed_limit: 15.0
+    # Control loop Hz
+    control_frequency: 20.0
+    
+    # Wheel Parameters
+    # Wheel radius for RPM to m/s conversion
+    wheel_radius: 0.253
